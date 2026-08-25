@@ -1,4 +1,3 @@
-#1. FUNÇÃOPARA CITACAO BIBLIOGRAFICA
 def formatar_citacao(nome_completo):
 
   partes = nome_completo.strip().split()
