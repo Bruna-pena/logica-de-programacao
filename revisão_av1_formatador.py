@@ -1,0 +1,16 @@
+#1. FUNÇÃOPARA CITACAO BIBLIOGRAFICA
+def formatar_citacao(nome_completo):
+
+  partes = nome_completo.strip().split()
+  sobrenome = partes[-1].upper()
+  primeiro_nome = " ".join(partes[:-1])
+  return sobrenome + ", " + primeiro_nome
+
+def gerar_codigo(ano,cpf):
+  cpf_limpo = cpf.strp()
+  tres_digitos = cpf_limpo[0:3]
+  return "ALU-" + str(ano) + "-" + tres_digitos
+
+autor = "Juliana Souza Lima"
+citacao_formatada + formatar_citacao(autor)
+print("Citacao Bibliografica:", citacao_formatada)
