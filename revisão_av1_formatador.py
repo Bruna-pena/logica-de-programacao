@@ -6,7 +6,7 @@ def formatar_citacao(nome_completo):
   return sobrenome + ", " + primeiro_nome
 
 def gerar_codigo(ano,cpf):
-  cpf_limpo = cpf.strp()
+  cpf_limpo = cpf.strip()
   tres_digitos = cpf_limpo[0:3]
   return "ALU-" + str(ano) + "-" + tres_digitos
 
